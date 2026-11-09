@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Web App</title>
+
+  <!-- Izinkan akses fitur browser -->
+  <meta http-equiv="Permissions-Policy"
+        content="camera=(self), microphone=(self), geolocation=(self)">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbzljGSjmnuuXLz_bO4oj9tbkL6pjRxhKSHTvtUa-hylr5fZjPNKY1UIMoVrO_y-I6d4gQ/exec"
+    allow="camera; microphone; geolocation; fullscreen"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+</body>
+</html>
